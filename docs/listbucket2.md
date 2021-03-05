@@ -107,7 +107,7 @@ qshell listbucket2 if-pbl -o if-pbl.list.txt
 2.获取空间`if-pbl`里面的以`2014/10/07/`为前缀的文件列表：
 
 ```
-qshell listbucket if-pbl --prefix '2014/10/07/' -o if-pbl.prefix.list.txt
+qshell listbucket2 if-pbl --prefix '2014/10/07/' -o if-pbl.prefix.list.txt
 ```
 
 结果：
